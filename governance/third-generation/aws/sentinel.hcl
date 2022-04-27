@@ -76,7 +76,7 @@ policy "restrict-db-instance-engines" {
 
 policy "restrict-ec2-instance-type" {
   source = "./restrict-ec2-instance-type.sentinel"
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "restrict-egress-sg-rule-cidr-blocks" {
